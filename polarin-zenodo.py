@@ -16,7 +16,7 @@ from streamlit_folium import st_folium
 # ─── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="POLARIN – Dataset Registration",
-    page_icon="🧊",
+    page_icon="logo.png",
     layout="centered",
 )
 
