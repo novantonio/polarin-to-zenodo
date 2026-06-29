@@ -16,8 +16,10 @@ from streamlit_folium import st_folium
 # ─── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="POLARIN – Dataset Registration",
-    page_icon="logo.png",
+    page_icon="logo1.png",
     layout="centered",
+    logo_path="logo.png",
+    logo_width=200,
 )
 
 # ─── Constants ────────────────────────────────────────────────────────────────
