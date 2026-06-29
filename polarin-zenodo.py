@@ -19,7 +19,7 @@ st.set_page_config(
     page_icon="icon.png",
     layout="centered",
     logo_path="logo.png",
-    logo_width=200,
+    logo_width=200
 )
 
 # ─── Constants ────────────────────────────────────────────────────────────────
