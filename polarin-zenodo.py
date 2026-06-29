@@ -16,7 +16,7 @@ from streamlit_folium import st_folium
 # ─── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="POLARIN – Dataset Registration",
-    page_icon="icon.png",
+    page_icon="logo.png",
     layout="centered",
 )
 
@@ -102,7 +102,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── Header ───────────────────────────────────────────────────────────────────
-st.image("logo.png", width=200)
+#st.image("logo.png", width=200)
 st.markdown("""
 <div class="polarin-header">
     <div>
