@@ -18,8 +18,6 @@ st.set_page_config(
     page_title="POLARIN – Dataset Registration",
     page_icon="icon.png",
     layout="centered",
-    logo_path="logo.png",
-    logo_width=200
 )
 
 # ─── Constants ────────────────────────────────────────────────────────────────
@@ -104,10 +102,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── Header ───────────────────────────────────────────────────────────────────
+st.image("logo.png", width=200)
 st.markdown("""
 <div class="polarin-header">
     <div>
-        <div class="polarin-title">🧊 POLARIN</div>
+        <div class="polarin-title">POLARIN</div>
         <div class="polarin-subtitle">Polar Research Infrastructure Network</div>
     </div>
 </div>
